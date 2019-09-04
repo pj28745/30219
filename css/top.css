@@ -1,0 +1,44 @@
+/* top */
+
+.top {
+    position: fixed;
+    bottom: 100px;
+    right: 100px;
+    padding: 15px 20px;
+    background: linear-gradient(141deg, #00BCD4, #0072d4);
+    color: white;
+    font-family: 'Mitr', sans-serif;
+    text-decoration: none;
+    transition: all 0.5s;
+    z-index: 100;
+    border-radius: 15px;
+    transition: all 0.5s;
+}
+
+.top:hover {
+    background: linear-gradient(141deg, rgb(25, 192, 214), #157ad3);
+}
+
+.d-block {
+    display: block;
+}
+
+.d-none {
+    display: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
